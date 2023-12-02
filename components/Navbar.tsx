@@ -4,31 +4,29 @@ import { Socials } from '@/constants'
 
 function Navbar() {
   return (
-    <div className='fixed top-o z-[40] w-full h-[100px] bg-transparent flex justify-between items-center px-10 md:px-20'>
+    <div className='fixed top-o z-[40] w-full h-[100px]  flex justify-between items-center px-10 md:px-20'>
         <div className='flex flex-row gap-3 items-center'>
             <div className="relative">
-            <Image 
-                src="/horseLogo.jpg"
-                alt='logo'
-                width={40}
-                height={40}
-                className='w-full h-full object-fill rounded-full'
-            />
             </div>
-
-        <h1 className='text-white text-[25px] font-semibold'>Hadj {" "}<span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500'>
-        Said
+            <a href='/'>
+            <h1 className='text-black text-[25px] font-semibold bg-white p-2 rounded-3xl'>Hadj Said {" "}<span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500'>
+        Bouras
             </span> </h1>
+            </a>
+
         </div>
-        <div className='flex flex-row gap-5 mb-2'>
+        <div className='flex flex-row gap-5 mb-2 bg-white p-2 rounded-3xl'>
             {Socials.map((social) => (
+                <a target="_blank" href={social.href}>
                 <Image 
                     key={social.name}
                     src={social.src}
                     alt={social.name}
-                    width={28}
-                    height={28}
+                    width={35}
+                    height={35}
                 />
+                </a>
+
             ))}
         </div>
     </div>

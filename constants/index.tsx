@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
 export const SkillData = [
@@ -78,16 +79,19 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "CV",
+    src: "/cv.png",
+    href: `${'https://drive.google.com/file/d/1P3sJfkavPZXkY_Qa_9ScpwgDwcJ9TQ0U/view?usp=drive_link'}`,
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "Github",
+    src: "/github.png",
+    href: `${'https://github.com/Hadj-Said-Bouras'}`,
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
+    name: "Linkedin",
+    src: "/linkedin.png",
+    href: `${'https://www.linkedin.com/in/hadj-said-front-end-web-developer-a577a8255/'}`,
   },
 ];
 export const Projects = [
