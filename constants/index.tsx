@@ -97,23 +97,23 @@ export const Socials = [
 export const Projects = [
   {
     title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    text: "A website for students to share usable products and they can even exchange or sell them (Group project)",
+    src: "/shareity.png",
   },
   {
     title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "An E-commerce website that fetches products from external api (Group project)",
     src: "/SpaceWebsite.png",
   },
   {
     title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: "A portfolio website for presenting my skills and projects (code-along project)",
     src: "/WebPortfolio.png",
   },
   {
     title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    text: "A madlib game website for people to create their own stories (Group project)",
+    src: "/madlib.png",
   },
 ];
 

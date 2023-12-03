@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <div 
     className='w-screen h-screen flex items-center justify-center bg-center bg-cover'
-    style={{backgroundImage: "url(/mountains.jpg)"}}
+    style={{ backgroundSize: "800px",backgroundColor: "black", backgroundRepeat: "no-repeat"}}
     >
       <div className='grid grid-cols-2 gap-5 max-w-[90%] max-h-[90%]'>
         {Projects.map((project, index) => (

@@ -9,7 +9,7 @@ import {Autoplay} from 'swiper/modules'
 export default function Page() {
   return (
     <div
-    style={{backgroundImage: "url('/bg-2.jpg')"}}
+    style={{backgroundImage: "url('/6.gif')", backgroundSize: "800px",backgroundColor: "black", backgroundRepeat: "no-repeat"}}
     className='w-screen h-screen items-center justify-center bg-cover bg-center'
     >
       <div 

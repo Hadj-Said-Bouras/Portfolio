@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className='w-screen h-screen relative'>
-      <div className='flex items-center w-full h-full bg-cover bg-center' style={{backgroundImage: "url(/main-bg.webp)"}}>
+      <div className='flex items-center w-full h-full bg-cover bg-center' style={{backgroundImage: "url(/6.gif)", backgroundSize: "800px",backgroundColor: "black", backgroundRepeat: "no-repeat"}}>
         <div className='pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]'>
           <h1 className='text-[50px] text-white font-semibold'>
             Dreams becomes reality with{" "}
@@ -42,7 +42,7 @@ export default function Home() {
               Contact me
             </Link>
           </div>
-          <Image
+          {/* <Image
               src='/horse.png'
               alt='horse'
               height={300}
@@ -72,7 +72,7 @@ export default function Home() {
               height={300}
               width={300}
               className='absolute top-10 left-0 z-[10]' 
-            />
+            /> */}
     </main>
   )
 }
